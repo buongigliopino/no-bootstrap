@@ -1,0 +1,12 @@
+
+.menu-fisso{
+  height: 100%;
+  background-color: black;
+  width: 10%;
+  position: absolute;
+}
+li{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
