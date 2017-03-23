@@ -8,11 +8,13 @@
 nav li{
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
   }
   .logo{
     height: 30%;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
   }
   .nav-bar{
     height: 40%;
