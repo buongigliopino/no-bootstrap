@@ -5,8 +5,15 @@
   width: 10%;
   position: absolute;
 }
-li{
+nav li{
   display: flex;
   justify-content: center;
-  flex-direction: column;
-}
+  }
+  .logo{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-bar{
+    height: 40%;
+  }
