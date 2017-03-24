@@ -19,3 +19,19 @@ nav li{
   .nav-bar{
     height: 40%;
   }
+  .foto{
+    width: 90%;
+    background-color: red;
+    float: right;
+
+  }
+  .foto-foglia{
+    width: 45%;
+    background-color: #becbb7;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
