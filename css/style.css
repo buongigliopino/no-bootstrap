@@ -55,5 +55,30 @@ nav li{
       font-family: "brandon_grotesquemedium", sans-serif;
     }
     .new-graphics{
-      background-color: red;
+      background-color: white;
+      display: inline-flex;
+      float: right;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+    }
+    .news{
+      background-color: white;
+      display: inline-flex;
+      float: right;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .new-graphics h1{
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: 5px;
+      margin: 0 0 10px;
+      text-transform: uppercase;
+      color: #000;
+      font-family: "brandon_grotesquebold", sans-serif;
+
     }
