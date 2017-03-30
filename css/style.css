@@ -3,7 +3,7 @@
   height: 100%;
   background-color: black;
   width: 10%;
-  position: absolute;
+  position: fixed;
 }
 nav li{
   display: flex;
@@ -21,20 +21,39 @@ nav li{
   }
   .foto{
     width: 90%;
-    background-color: red;
     float: right;
+    display: inline-flex;
 
   }
   .foto-foglia{
-    width: 45%;
+    width:50%;
     background-color: #becbb7;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin: 0;
   }
   .titoli{
-    width: 45%;
+      background-color: #7c9180;
+      width:50%;
+      text-align: center;
+      padding-top: 80px;
+      padding-right:
+      padding-left:
+      padding-bottom: 80px;
   }
+  .titoli  h1{
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 8px;
+    margin: 0 0 15px;
+    -webkit-text-stroke: 2px #fff;
+    font-family: "brandon_grotesquemedium", sans-serif;
+    color: #8da79d;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  }
+    h3{
+      font-family: "brandon_grotesquemedium", sans-serif;
+    }
+    .new-graphics{
+      background-color: red;
+    }
