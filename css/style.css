@@ -49,36 +49,32 @@ nav li{
     -webkit-text-stroke: 2px #fff;
     font-family: "brandon_grotesquemedium", sans-serif;
     color: #8da79d;
-    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   }
-    h3{
-      font-family: "brandon_grotesquemedium", sans-serif;
-    }
-    .new-graphics{
-      background-color: white;
-      display: inline-flex;
-      float: right;
-      width: 90%;
-      display: flex;
-      justify-content: center;
-    }
-    .news{
-      background-color: white;
-      display: inline-flex;
-      float: right;
-      width: 90%;
-      display: flex;
-      justify-content: center;
-
-    }
-
-    .new-graphics h1{
-      font-size: 40px;
-      line-height: 50px;
-      letter-spacing: 5px;
-      margin: 0 0 10px;
-      text-transform: uppercase;
-      color: #000;
-      font-family: "brandon_grotesquebold", sans-serif;
-
-    }
+  .new-graphics{
+    width: 90%;
+    float: right;
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+  }
+  .news{
+    width: 90%;
+    float: right;
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+  }
+  .new-graphics h1{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "brandon_grotesquebold", sans-serif;
+    text-align: center;
+  }
+  .news h3{
+    text-align: center;
+  }
